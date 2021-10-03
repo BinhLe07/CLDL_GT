@@ -10,12 +10,12 @@ public class Lab1Bai1
         String HoTen;
         double DiemTB;
 
-        System.out.println("Nhap Vao Ho Va Ten: ");
+        System.out.println("Nhập họ tên: ");
         HoTen = scanner.nextLine();
-        System.out.println("Nhap Vao Diem Trung Binh: "); 
+        System.out.println("Nhập điểm trung bình: "); 
         DiemTB = scanner.nextDouble();
 
-        System.out.printf("Ho Va Ten: %s \n", HoTen);
-        System.out.print("Diem Trung Binh = "+ DiemTB);     
+        System.out.printf("Họ tên: %s \n", HoTen);
+        System.out.println("Điểm trung bình = "+ DiemTB);     
     }    
 }
