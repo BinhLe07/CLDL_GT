@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class PTBac1 {
     public static void main(String[] args) {
-        System.out.println("GIAI PT BAC NHAT");
-        double nhapa, nhapb;
+        System.out.println("Giải PT Bậc 1");
+        double a,b;
         Scanner nhap = new Scanner(System.in);
 
-        System.out.println("Nhap Vao A: ");
-        nhapa = nhap.nextDouble();
-        System.out.println("Nhap Vao B: ");
-        nhapb = nhap.nextDouble();
+        System.out.println("Nhập a: ");
+        a = nhap.nextDouble();
+        System.out.println("Nhập b: ");
+        b = nhap.nextDouble();
 
-        if(nhapa ==0)
-            if(nhapb ==0)
-                System.out.println("Vo So Nghiem");
+        if(a==0)
+            if(b==0)
+                System.out.println("Vô số Nghiệm");
             else
-                System.out.println("Vo Nghiem");
+                System.out.println("Vô Nghiệm");
         else
         {
-            double x = - nhapb / nhapa;
+            double x = - b/ a;
             System.out.println("x = "+ x);
         }             
     }
