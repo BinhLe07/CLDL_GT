@@ -2,7 +2,7 @@ package Tuan02;
 
 import java.util.Scanner;
 
-public class TinhChuViDienTichHCN {
+public class Lab1Bai2 {
     public static void main(String[] args) 
     {
         Scanner Nhap = new Scanner(System.in);

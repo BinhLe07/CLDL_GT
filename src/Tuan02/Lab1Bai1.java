@@ -16,6 +16,6 @@ public class Lab1Bai1
         DiemTB = scanner.nextDouble();
 
         System.out.printf("Họ tên: %s \n", HoTen);
-        System.out.println("Điểm trung bình = "+ DiemTB);     
+        System.out.print("Điểm trung bình = "+ DiemTB);     
     }    
 }
