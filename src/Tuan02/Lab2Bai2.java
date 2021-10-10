@@ -2,7 +2,7 @@ package Tuan02;
 
 import java.util.Scanner;
 
-public class PTBac2 {
+public class Lab2Bai2 {
     public static void main(String[] args) 
     {
         Scanner nhap = new Scanner(System.in);
@@ -53,3 +53,4 @@ public class PTBac2 {
               
     }
 }
+

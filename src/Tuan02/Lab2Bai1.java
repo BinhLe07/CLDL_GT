@@ -2,7 +2,7 @@ package Tuan02;
 
 import java.util.Scanner;
 
-public class PTBac1 {
+public class Lab2Bai1 {
     public static void main(String[] args) {
         System.out.println("Giải PT Bậc 1");
         double a,b;

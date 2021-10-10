@@ -2,7 +2,7 @@ package Tuan02;
 
 import java.util.Scanner;
 
-public class TinhTienDien {
+public class Lab2Bai3 {
     public static void main(String[] args) 
     {
         Scanner SoDienSuDung = new Scanner(System.in);

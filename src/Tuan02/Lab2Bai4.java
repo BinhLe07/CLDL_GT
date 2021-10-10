@@ -2,14 +2,13 @@ package Tuan02;
 
 import java.util.Scanner;
 
-public class Menu {
+public class Lab2Bai4 {
     public static void main(String[] args) 
     {       
         System.out.println("--------- MEUNU ---------");
         System.out.println("1/ Giải PT Bậc 1 ");
         System.out.println("2/ Giải PT Bậc 2 ");
         System.out.println("3/ Tính Tiền Điện ");
-        System.out.println("4/ Tính ChuViDienTich HCN ");
         System.out.println("--------------------------");
         Scanner NhapChucNang = new Scanner(System.in);
         System.out.println("Nhập chức năng muốn sử dụng");
