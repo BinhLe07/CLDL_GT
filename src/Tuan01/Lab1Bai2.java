@@ -1,16 +1,17 @@
-package Tuan02;
+package Tuan01;
 
 import java.util.Scanner;
 
-public class Lab1Bai2 {
+public class Lab1Bai2
+{
     public static void main(String[] args) 
     {
         Scanner Nhap = new Scanner(System.in);
         double DienTich,ChuVi,ChieuDai,ChieuRong;
 
-        System.out.println("Nhập chiều dài: ");
+        System.out.println("Nhap chieu dai: ");
         ChieuDai = Nhap.nextDouble();
-        System.out.println("Nhập chiều rộng: ");   
+        System.out.println("Nhap chieu rong: ");   
         ChieuRong = Nhap.nextDouble(); 
 
         ChuVi = (ChieuDai + ChieuRong)*2;
