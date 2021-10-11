@@ -28,7 +28,7 @@ public class Lab3Bai4 {
                 }
             }
         }
-        System.out.printf("------DANH SÁCH SINH VIÊN------");
+        System.out.printf("Danh sách sinh viên");
         for(int i = 0;i < n;i++){
             System.out.printf("\nHọ và tên: %s\n", ho_Ten[i]);
             System.out.printf("Điểm: %.2f\n", diem[i]);
@@ -48,7 +48,7 @@ public class Lab3Bai4 {
                     }
                 }
             }
-            System.out.print("_____________________________");
+            System.out.print(".........");
         }
     }
 }
