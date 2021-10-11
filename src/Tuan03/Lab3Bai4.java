@@ -19,12 +19,12 @@ public class Lab3Bai4 {
         for(int i = 0;i < n;i++){
             for(int j = i + 1;j < n - 1;j++){
                 if(Diem[i] > Diem[j]){
-                    double tam = Diem[i];
+                    double Tam = Diem[i];
                     Diem[i] = Diem[j];
-                    Diem[j] = tam;
-                    String tam2 = HoTen[i];
+                    Diem[j] = Tam;
+                    String Tam2 = HoTen[i];
                     HoTen[i] = HoTen[j];
-                    HoTen[j] = tam2;
+                    HoTen[j] = Tam2;
                 }
             }
         }
