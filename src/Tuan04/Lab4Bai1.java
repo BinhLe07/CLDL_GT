@@ -15,7 +15,7 @@ public class Lab4Bai1 {
             b = Nhap.nextDouble();
             list.add(b);
             Nhap.nextLine();
-            System.out.println("Bạn có muốn nhập thêm không(Y/N): ");
+            System.out.println("Nhập thêm Yes or No: ");
             a = Nhap.nextLine();
             if(a.equals("N"))
                  break;
