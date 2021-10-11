@@ -26,7 +26,7 @@ public class MayTinh {
     void inThongTin(){
         System.out.println("Nhà sản xuất: "+nhaSanXuat);
         System.out.printf("Năm sản xuất: "+NamSanXuat);
-        System.out.println("Hệ điều hành: "+HeDieuHanh);
+        System.out.println("\nHệ điều hành: "+HeDieuHanh);
         System.out.println("RAM: "+RAM);
         System.out.println("CPU: "+CPU);
         System.out.println("Giá bán: "+Gia+"Đồng");
